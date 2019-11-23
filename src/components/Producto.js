@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Producto = () => {
+const Producto = ({producto}) => {
             return (
-                <h1>Desde Producto</h1>
+                <div>
+                    <h1>{producto.nombre}</h1>
+                    <p>Precio :${producto.precio}</p>
+                </div>
             )
 };
 

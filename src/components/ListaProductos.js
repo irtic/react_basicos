@@ -4,10 +4,10 @@ import Producto from './Producto'
 class ListaProductos extends Component {
     state = {
         productos : [
-            {id : 1, name : 'camisa reactjs', precio : 30 },
-            {id : 2, name : 'camisa vuejs', precio : 30 },
-            {id : 3, name : 'camisa angularjs', precio : 30 },
-            {id : 4, name : 'camisa nodejs', precio : 30 },
+            {id : 1, nombre : 'camisa reactjs', precio : 30 },
+            {id : 2, nombre : 'camisa vuejs', precio : 30 },
+            {id : 3, nombre : 'camisa angularjs', precio : 30 },
+            {id : 4, nombre : 'camisa nodejs', precio : 30 },
         ]
         
     }
